@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Reyann Larkey"
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   bio              : "PhD Candidate, Physics, Montana State University"
   location         : "Bozeman, MT"
   employer         :
