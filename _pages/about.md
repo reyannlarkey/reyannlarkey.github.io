@@ -16,7 +16,7 @@ Doing things with TGFs...will add mroe details later
 <img src="../images/TGF.png" alt="Drawing" style="width: 250px;"/>
 <!--#<img src="../images/firebird_pose_v2.jpg" alt="Drawing" style="width: 250px;"/>-->
 
-*The twin FIREBIRD-II CubeSats on the bench before launch*
+TGF image that's always used
 
 ## Research Interests
 
