@@ -20,4 +20,4 @@ TGF image that's always used
 
 ## Research Interests
 
-<img src="../images/map.gif" border = "1" style="width: 500px;"/>
+<img src="../images/map.gif"  style="width: 500px; background-color:red;"/>
