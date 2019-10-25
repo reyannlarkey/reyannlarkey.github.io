@@ -19,5 +19,6 @@ Doing things with TGFs...will add mroe details later
 TGF image that's always used
 
 ## Research Interests
-
-<img src="../images/map.gif"  style="width: 500px; background-color:red;"/>
+<div style="text-align:center">
+<img src="../images/map.gif"  style="width: 500px;"/>
+</div>
