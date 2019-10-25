@@ -13,7 +13,7 @@ This will eventually say something about me, but right now I'm testing stuff.
 ## Current Projects
 Doing things with TGFs...will add more details later
 <div style="text-align:center">
-<img src="../images/TGF.png" border="1" style="width: 250px;"/>
+<img src="../images/TGF.png" border="1" style="width: 500px;"/>
 </div>
 TGF image that's always used
 <!--
