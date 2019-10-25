@@ -13,7 +13,7 @@ This will eventually say something about me, but right now I'm testing stuff.
 ## Current Projects
 Doing things with TGFs...will add mroe details later
 
-<img src="../images/TGF.png" alt="Drawing" style="width: 250px;"/>
+<img src="../images/TGF.png" border: 1px solid #000; style="width: 250px;"/>
 <!--#<img src="../images/firebird_pose_v2.jpg" alt="Drawing" style="width: 250px;"/>-->
 
 TGF image that's always used
