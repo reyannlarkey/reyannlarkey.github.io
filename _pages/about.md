@@ -16,8 +16,4 @@ Doing things with TGFs...will add more details later
 <img src="../images/TGF.png" border="1" style="width: 500px;"/>
 </div>
 TGF image that's always used
-<!--
-## Research Interests
-<div style="text-align:center">
-<img src="../images/map.gif"  style="width: 500px;"/>
-</div>-->
+<!--## Research Interests<div style="text-align:center"><img src="../images/map.gif"  style="width: 500px;"/></div>-->
