@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-This will eventually say something about me, but right now I'm testing stuff.
+I am currently a Graduate Student at Montana State Univerisity. Right now I'm studying Terrestrial Gamma-Ray Flashes (TGFs) and their associated lightning. I'll add more details later but for now I'm just testing stuff with this website. 
 
 ## Current Projects
 Doing things with TGFs...will add more details later
 <div style="text-align:center">
 <img src="../images/TGF.png" border="1" style="width: 500px;"/>
 </div>
-TGF image that's always used
+This is the TGF image that's always used so I *have* to put it here. 
 <!--## Research Interests<div style="text-align:center"><img src="../images/map.gif"  style="width: 500px;"/></div>-->
