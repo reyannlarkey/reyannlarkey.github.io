@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Graduate Student at Montana State Univerisity. Right now I'm studying Terrestrial Gamma-Ray Flashes (TGFs) and their associated lightning. I'll add more details later but for now I'm just testing stuff with this website. 
+I am currently a Graduate Student at Montana State Univerisity. Right now I'm studying Terrestrial Gamma-Ray Flashes (TGFs) and their associated lightning. So far my research has involved the intervals between lightning flashes in TGF producing thunderstorms.  
 
 ## Current Projects
 <div style="text-align:center">
 <img src="../images/TGF.png" border="1" style="width: 500px;"/>
 </div>
-This is the TGF image that's always used so I *have* to put it here. 
+Still working on this section :) 
 <!--## Research Interests<div style="text-align:center"><img src="../images/map.gif"  style="width: 500px;"/></div>-->
