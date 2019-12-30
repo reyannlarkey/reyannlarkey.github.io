@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Graduate Student at Montana State Univerisity. Right now I'm studying Terrestrial Gamma-Ray Flashes (TGFs) and their associated lightning. So far my research has involved the intervals between lightning flashes in TGF producing thunderstorms.  
+I am currently a Graduate Student at Montana State Univerisity. Right now I'm studying Terrestrial Gamma-Ray Flashes (TGFs) and their associated lightning. So far my research has been focused on the intervals between lightning flashes in TGF producing thunderstorms.  
+
+
 
 ## Current Projects
 <div style="text-align:center">
