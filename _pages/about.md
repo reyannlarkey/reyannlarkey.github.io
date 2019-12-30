@@ -19,8 +19,8 @@ Still working on this section :)
 ### Test Interactive Plot
 <iframe src="../files/clustering.html"
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="500"
+    width="50%"
+    height="200"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
