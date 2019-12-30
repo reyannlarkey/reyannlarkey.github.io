@@ -14,8 +14,8 @@ redirect_from:
 ### Test Interactive Plot
 <iframe src="../files/flowers.html"
     sandbox="allow-same-origin allow-scripts"
-    width="90%"
-    height="50%"
+    width="100%"
+    height="100%"
     scrolling="yes"
     seamless="seamless"
     frameborder="0">
