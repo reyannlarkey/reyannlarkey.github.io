@@ -1,7 +1,3 @@
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -33,7 +29,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "dark"# "light" (default), "dark"
+    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -82,7 +78,7 @@ analytics:
     tracking_id          :
 
 
-theme: jekyll-theme-minimal-mistakes
+theme: jekyll-theme-architect
 # Site Author
 author:
   name             : "Reyann Larkey"
@@ -151,7 +147,6 @@ exclude:
   - package.json
   - tmp
   - vendor
-  - assets
 keep_files:
   - .git
   - .svn
@@ -271,7 +266,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
