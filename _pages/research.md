@@ -15,7 +15,7 @@ redirect_from:
 <iframe src="../files/flowers.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
-    height="100%"
+    height="600"
     scrolling="yes"
     seamless="seamless"
     frameborder="0">
