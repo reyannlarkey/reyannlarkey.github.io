@@ -15,15 +15,3 @@ I am currently a Graduate Student at Montana State Univerisity. Right now I'm st
 <img src="../images/TGF.png" border="1" style="width: 500px;"/>
 </div>
 Still working on this section :) 
-
-### Test Interactive Plot
-<iframe src="../files/flowers.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="500"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
-
-<!--## Research Interests<div style="text-align:center"><img src="../images/map.gif"  style="width: 500px;"/></div>-->
