@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
@@ -15,7 +15,7 @@ redirect_from:
 <iframe src="../files/flowers.html"
     sandbox="allow-same-origin allow-scripts"
     width="90%"
-    height="500"
+    height="50%"
     scrolling="yes"
     seamless="seamless"
     frameborder="0">
