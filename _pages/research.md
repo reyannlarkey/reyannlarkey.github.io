@@ -14,11 +14,12 @@ redirect_from:
 ### Test Interactive Plot
 <iframe src="../files/flowers.html"
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
+    width="90%"
     height="500"
     scrolling="yes"
     seamless="seamless"
     frameborder="0">
 </iframe>
 
-
+## Research Interests
+<div style="text-align:center"><img src="../images/map.gif"  style="width: 500px;"/></div>
