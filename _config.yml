@@ -82,7 +82,7 @@ analytics:
     tracking_id          :
 
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal-mistakes
 # Site Author
 author:
   name             : "Reyann Larkey"
