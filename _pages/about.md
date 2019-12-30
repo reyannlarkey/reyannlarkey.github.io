@@ -17,10 +17,10 @@ I am currently a Graduate Student at Montana State Univerisity. Right now I'm st
 Still working on this section :) 
 
 ### Test Interactive Plot
-<iframe src="../files/clustering.html"
+<iframe src="../files/flowers.html"
     sandbox="allow-same-origin allow-scripts"
-    width="50%"
-    height="200"
+    width="100%"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
