@@ -11,7 +11,7 @@ def embed_map(m, file_name):
     m.save(file_name)
     return IFrame(file_name, width='50%', height='200px')
 
-m_1 = folium.Map(location=[38.2727,-153.2813], tiles='openstreetmap', zoom_start=3, min_zoom = 3) # initiallize the map
+m_1 = folium.Map(location=[38.2727,-153.2813], tiles='openstreetmap', zoom_start=3, min_zoom = 2) # initiallize the map
 
 def ground_unit(Lat, Lon, NAME, DATE, RECOVERED):
 
@@ -93,7 +93,7 @@ ground_unit(Lat = 43.625913, Lon = -79.396027,    NAME = "GU4", DATE = "07-11-20
 flight_unit(flight_file='flight0.csv', NAME = "FU1", DATE = "11-12-2018", RECOVERED="TRUE",track_color='blue')
 flight_unit(flight_file='flight_palm_tree.csv', NAME = "FU3", DATE = "07-25-2019", RECOVERED="TRUE",track_color='red')
 flight_unit(flight_file='FU2_Flight.csv', NAME = "FU2", DATE = "07-26-2019", RECOVERED="FALSE",track_color='purple')
-flight_unit(flight_file='flight1.csv', NAME = "FU3", DATE = "08-06-2019", RECOVERED="TRUE",track_color='green')
+flight_unit(flight_file='flight1.csv', NAME = "FU3", DATE = "08-06-2019", RECOVERED="TRUE",track_color='pink')
 
 m_1.add_child(folium.LatLngPopup())
 
