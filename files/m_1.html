@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aca8ad8dde58483f8b5feda1254a8b24 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_aca8ad8dde58483f8b5feda1254a8b24" ></div>
+        
+</body>
+<script>    
+    
+            var map_aca8ad8dde58483f8b5feda1254a8b24 = L.map(
+                "map_aca8ad8dde58483f8b5feda1254a8b24",
+                {
+                    center: [38.2727, -153.2813],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_12f3cc32325e4c50a676fb1f26ecd561 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aca8ad8dde58483f8b5feda1254a8b24);
+        
+    
+            var marker_31626bb564e44fe283c491e343b45230 = L.marker(
+                [36.663504, -223.350322],
+                {}
+            ).addTo(map_aca8ad8dde58483f8b5feda1254a8b24);
+        
+    
+            var icon_ee752dd058a34ed291ba8409ea15e4b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-bolt", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_31626bb564e44fe283c491e343b45230.setIcon(icon_ee752dd058a34ed291ba8409ea15e4b8);
+        
+    
+        var popup_bb4fec1b9758417cbb5be3e162f65258 = L.popup({"maxWidth": 2650});
+
+        
+            var i_frame_64c4a855648b4fb4bc21e1638f384af5 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgogICAgICAgIC50ZyAge2JvcmRlci1jb2xsYXBzZTpjb2xsYXBzZTtib3JkZXItc3BhY2luZzowO30KICAgICAgICAudGcgdGR7Zm9udC1mYW1pbHk6QXJpYWwsIHNhbnMtc2VyaWY7Zm9udC1zaXplOjE0cHg7cGFkZGluZzoxMHB4IDVweDtib3JkZXItc3R5bGU6c29saWQ7Ym9yZGVyLXdpZHRoOjFweDtvdmVyZmxvdzpoaWRkZW47d29yZC1icmVhazpub3JtYWw7Ym9yZGVyLWNvbG9yOmJsYWNrO30KICAgICAgICAudGcgdGh7Zm9udC1mYW1pbHk6QXJpYWwsIHNhbnMtc2VyaWY7Zm9udC1zaXplOjE0cHg7Zm9udC13ZWlnaHQ6bm9ybWFsO3BhZGRpbmc6MTBweCA1cHg7Ym9yZGVyLXN0eWxlOnNvbGlkO2JvcmRlci13aWR0aDoxcHg7b3ZlcmZsb3c6aGlkZGVuO3dvcmQtYnJlYWs6bm9ybWFsO2JvcmRlci1jb2xvcjpibGFjazt9CiAgICAgICAgLnRnIC50Zy16bHF6e2ZvbnQtd2VpZ2h0OmJvbGQ7YmFja2dyb3VuZC1jb2xvcjojYzBjMGMwO2JvcmRlci1jb2xvcjppbmhlcml0O3RleHQtYWxpZ246Y2VudGVyO3ZlcnRpY2FsLWFsaWduOnRvcH0KICAgICAgICAudGcgLnRnLWMzb3d7Ym9yZGVyLWNvbG9yOmluaGVyaXQ7dGV4dC1hbGlnbjpjZW50ZXI7dmVydGljYWwtYWxpZ246dG9wfQogICAgICAgIDwvc3R5bGU+CiAgICAgICAgPHRhYmxlIGNsYXNzPSJ0ZyI+CiAgICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aCBjbGFzcz0idGctemxxeiI+RGF0ZTwvdGg+CiAgICAgICAgICAgIDx0aCBjbGFzcz0idGctYzNvdyI+MTItMTYtMjAxODwvdGg+CiAgICAgICAgICA8L3RyPgogICAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQgY2xhc3M9InRnLXpscXoiPlVuaXQgTmFtZTwvdGQ+CiAgICAgICAgICAgIDx0ZCBjbGFzcz0idGctYzNvdyI+R1UxPC90ZD4KICAgICAgICAgIDwvdHI+CiAgICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0ZCBjbGFzcz0idGctemxxeiI+UmVjb3ZlcmVkPC90ZD4KICAgICAgICAgICAgPHRkIGNsYXNzPSJ0Zy1jM293Ij5OL0E8L3RkPgogICAgICAgICAgPC90cj4KICAgICAgICA8L3RhYmxlPgogICAgICAgIA==" width="230" style="border:none !important;" height="130"></iframe>`)[0];
+            popup_bb4fec1b9758417cbb5be3e162f65258.setContent(i_frame_64c4a855648b4fb4bc21e1638f384af5);
+        
+
+        marker_31626bb564e44fe283c491e343b45230.bindPopup(popup_bb4fec1b9758417cbb5be3e162f65258)
+        ;
+
+        
+    
+    
+            var marker_c1cdc5a360ac4299a9fc0e3bb0bd4d5c = L.marker(
+                [35.713397, -220.236915],
+                {}
+            ).addTo(map_aca8ad8dde58483f8b5feda1254a8b24);
+        
+    
+            var icon_2427183e4f744ebf8f942574c39d89d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-bolt", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c1cdc5a360ac4299a9fc0e3bb0bd4d5c.setIcon(icon_2427183e4f744ebf8f942574c39d89d5);
+        
+    
+        var popup_16f9bb274fbb42529ca9a3d28bc21ff7 = L.popup({"maxWidth": 2650});
+
+        
+            var i_frame_3c4403c38991450aa5b7411e51bbf07c = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgogICAgICAgIC50ZyAge2JvcmRlci1jb2xsYXBzZTpjb2xsYXBzZTtib3JkZXItc3BhY2luZzowO30KICAgICAgICAudGcgdGR7Zm9udC1mYW1pbHk6QXJpYWwsIHNhbnMtc2VyaWY7Zm9udC1zaXplOjE0cHg7cGFkZGluZzoxMHB4IDVweDtib3JkZXItc3R5bGU6c29saWQ7Ym9yZGVyLXdpZHRoOjFweDtvdmVyZmxvdzpoaWRkZW47d29yZC1icmVhazpub3JtYWw7Ym9yZGVyLWNvbG9yOmJsYWNrO30KICAgICAgICAudGcgdGh7Zm9udC1mYW1pbHk6QXJpYWwsIHNhbnMtc2VyaWY7Zm9udC1zaXplOjE0cHg7Zm9udC13ZWlnaHQ6bm9ybWFsO3BhZGRpbmc6MTBweCA1cHg7Ym9yZGVyLXN0eWxlOnNvbGlkO2JvcmRlci13aWR0aDoxcHg7b3ZlcmZsb3c6aGlkZGVuO3dvcmQtYnJlYWs6bm9ybWFsO2JvcmRlci1jb2xvcjpibGFjazt9CiAgICAgICAgLnRnIC50Zy16bHF6e2ZvbnQtd2VpZ2h0OmJvbGQ7YmFja2dyb3VuZC1jb2xvcjojYzBjMGMwO2JvcmRlci1jb2xvcjppbmhlcml0O3RleHQtYWxpZ246Y2VudGVyO3ZlcnRpY2FsLWFsaWduOnRvcH0KICAgICAgICAudGcgLnRnLWMzb3d7Ym9yZGVyLWNvbG9yOmluaGVyaXQ7dGV4dC1hbGlnbjpjZW50ZXI7dmVydGljYWwtYWxpZ246dG9wfQogICAgICAgIDwvc3R5bGU+CiAgICAgICAgPHRhYmxlIGNsYXNzPSJ0ZyI+CiAgICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aCBjbGFzcz0idGctemxxeiI+RGF0ZTwvdGg+CiAgICAgICAgICAgIDx0aCBjbGFzcz0idGctYzNvdyI+MDEtMTEtMjAxOTwvdGg+CiAgICAgICAgICA8L3RyPgogICAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQgY2xhc3M9InRnLXpscXoiPlVuaXQgTmFtZTwvdGQ+CiAgICAgICAgICAgIDx0ZCBjbGFzcz0idGctYzNvdyI+R1UyPC90ZD4KICAgICAgICAgIDwvdHI+CiAgICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0ZCBjbGFzcz0idGctemxxeiI+UmVjb3ZlcmVkPC90ZD4KICAgICAgICAgICAgPHRkIGNsYXNzPSJ0Zy1jM293Ij5OL0E8L3RkPgogICAgICAgICAgPC90cj4KICAgICAgICA8L3RhYmxlPgogICAgICAgIA==" width="230" style="border:none !important;" height="130"></iframe>`)[0];
+            popup_16f9bb274fbb42529ca9a3d28bc21ff7.setContent(i_frame_3c4403c38991450aa5b7411e51bbf07c);
+        
+
+        marker_c1cdc5a360ac4299a9fc0e3bb0bd4d5c.bindPopup(popup_16f9bb274fbb42529ca9a3d28bc21ff7)
+        ;
+
+        
+    
+    
+            var marker_9004d9411a054387851a3b4e2c3c7702 = L.marker(
+                [28.1860833, -80.3656],
+                {}
+            ).addTo(map_aca8ad8dde58483f8b5feda1254a8b24);
+        
+    
+            var icon_65226450f4814a5da5238e5044c843f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9004d9411a054387851a3b4e2c3c7702.setIcon(icon_65226450f4814a5da5238e5044c843f0);
+        
+    
+        var popup_38234290ddd64c7c8b941cb5e47a424c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bed50bca2da43efae79a3c0b8d547f1 = $(`<div id="html_1bed50bca2da43efae79a3c0b8d547f1" style="width: 100.0%; height: 100.0%;">Touchdown</div>`)[0];
+            popup_38234290ddd64c7c8b941cb5e47a424c.setContent(html_1bed50bca2da43efae79a3c0b8d547f1);
+        
+
+        marker_9004d9411a054387851a3b4e2c3c7702.bindPopup(popup_38234290ddd64c7c8b941cb5e47a424c)
+        ;
+
+        
+    
+    
+            var marker_89ecc419470848ffb310f3d2021ba992 = L.marker(
+                [28.0625833, -80.6236167],
+                {}
+            ).addTo(map_aca8ad8dde58483f8b5feda1254a8b24);
+        
+    
+            var icon_e79aeb1e15bf4b9e88f0ca9caf587f89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-plane", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_89ecc419470848ffb310f3d2021ba992.setIcon(icon_e79aeb1e15bf4b9e88f0ca9caf587f89);
+        
+    
+        var popup_5f42b50d45ab477d9fc282911bff5063 = L.popup({"maxWidth": 2650});
+
+        
+            var i_frame_17bd9b0f17d64655999dabcd5d22447e = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+CiAgICAudGcgIHtib3JkZXItY29sbGFwc2U6Y29sbGFwc2U7Ym9yZGVyLXNwYWNpbmc6MDt9CiAgICAudGcgdGR7Zm9udC1mYW1pbHk6QXJpYWwsIHNhbnMtc2VyaWY7Zm9udC1zaXplOjE0cHg7cGFkZGluZzoxMHB4IDVweDtib3JkZXItc3R5bGU6c29saWQ7Ym9yZGVyLXdpZHRoOjFweDtvdmVyZmxvdzpoaWRkZW47d29yZC1icmVhazpub3JtYWw7Ym9yZGVyLWNvbG9yOmJsYWNrO30KICAgIC50ZyB0aHtmb250LWZhbWlseTpBcmlhbCwgc2Fucy1zZXJpZjtmb250LXNpemU6MTRweDtmb250LXdlaWdodDpub3JtYWw7cGFkZGluZzoxMHB4IDVweDtib3JkZXItc3R5bGU6c29saWQ7Ym9yZGVyLXdpZHRoOjFweDtvdmVyZmxvdzpoaWRkZW47d29yZC1icmVhazpub3JtYWw7Ym9yZGVyLWNvbG9yOmJsYWNrO30KICAgIC50ZyAudGctemxxentmb250LXdlaWdodDpib2xkO2JhY2tncm91bmQtY29sb3I6I2MwYzBjMDtib3JkZXItY29sb3I6aW5oZXJpdDt0ZXh0LWFsaWduOmNlbnRlcjt2ZXJ0aWNhbC1hbGlnbjp0b3B9CiAgICAudGcgLnRnLWMzb3d7Ym9yZGVyLWNvbG9yOmluaGVyaXQ7dGV4dC1hbGlnbjpjZW50ZXI7dmVydGljYWwtYWxpZ246dG9wfQogICAgPC9zdHlsZT4KICAgIDx0YWJsZSBjbGFzcz0idGciPgogICAgICA8dHI+CiAgICAgICAgPHRoIGNsYXNzPSJ0Zy16bHF6Ij5EYXRlPC90aD4KICAgICAgICA8dGggY2xhc3M9InRnLWMzb3ciPjA4LTA2LTIwMTk8L3RoPgogICAgICA8L3RyPgogICAgICA8dHI+CiAgICAgICAgPHRkIGNsYXNzPSJ0Zy16bHF6Ij5Vbml0IE5hbWU8L3RkPgogICAgICAgIDx0ZCBjbGFzcz0idGctYzNvdyI+RlUzPC90ZD4KICAgICAgPC90cj4KICAgICAgPHRyPgogICAgICAgIDx0ZCBjbGFzcz0idGctemxxeiI+UmVjb3ZlcmVkPC90ZD4KICAgICAgICA8dGQgY2xhc3M9InRnLWMzb3ciPlRSVUU8L3RkPgogICAgICA8L3RyPgogICAgPC90YWJsZT4KICAgIA==" width="230" style="border:none !important;" height="130"></iframe>`)[0];
+            popup_5f42b50d45ab477d9fc282911bff5063.setContent(i_frame_17bd9b0f17d64655999dabcd5d22447e);
+        
+
+        marker_89ecc419470848ffb310f3d2021ba992.bindPopup(popup_5f42b50d45ab477d9fc282911bff5063)
+        ;
+
+        
+    
+    
+            var poly_line_881d1e42abd04d9db014717289be1afc = L.polyline(
+                [[28.1860833, -80.3656], [28.186, -80.36555], [28.1859333, -80.3656], [28.1858333, -80.3656], [28.1857333, -80.3656], [28.1856333, -80.3655833], [28.185583299999998, -80.3656], [28.1855, -80.3656], [28.18545, -80.3656167], [28.185366700000003, -80.3656], [28.1853, -80.3656167], [28.1851833, -80.3656333], [28.1851667, -80.3656167], [28.1850833, -80.3656167], [28.1849833, -80.3655667], [28.184933299999997, -80.3656], [28.1848667, -80.3656], [28.1847833, -80.3656167], [28.1847, -80.3655833], [28.18465, -80.3655667], [28.18455, -80.3655667], [28.1845, -80.3656], [28.1844167, -80.3656], [28.1843667, -80.3656167], [28.184283299999997, -80.3656], [28.1842167, -80.3656167], [28.18415, -80.3656], [28.1841, -80.3656167], [28.1840333, -80.3656167], [28.18395, -80.3656167], [28.1839, -80.3656333], [28.1838333, -80.3656167], [28.1837167, -80.3656167], [28.1836667, -80.3656333], [28.1836167, -80.3656333], [28.1835, -80.3656167], [28.18345, -80.3656333], [28.1834, -80.3656333], [28.18335, -80.36565], [28.1832667, -80.3656333], [28.183216700000003, -80.3656333], [28.1831833, -80.3656667], [28.1830833, -80.3656667], [28.183016700000003, -80.3656667], [28.1829333, -80.3656667], [28.1828667, -80.3656667], [28.182783299999997, -80.3656667], [28.1827167, -80.3656667], [28.182666700000002, -80.3656667], [28.1826, -80.3656667], [28.1825167, -80.3656833], [28.18245, -80.3656833], [28.1823333, -80.36565], [28.1823, -80.3656667], [28.1822333, -80.3657], [28.1822, -80.36571670000001], [28.1821167, -80.3657333], [28.182033299999997, -80.3657333], [28.1819667, -80.36571670000001], [28.1819, -80.3657333], [28.1818667, -80.3657333], [28.181733299999998, -80.36575], [28.1816833, -80.36575], [28.1816, -80.36575], [28.18155, -80.36575], [28.1814833, -80.36575], [28.1814333, -80.3657667], [28.1813167, -80.36575], [28.181266700000002, -80.36575], [28.1812, -80.3657333], [28.1811167, -80.3657333], [28.1810333, -80.3657333], [28.18095, -80.36571670000001], [28.180883299999998, -80.3657], [28.1808, -80.36571670000001], [28.18075, -80.36571670000001], [28.180516700000002, -80.3657333], [28.180433299999997, -80.3657333], [28.1803667, -80.36571670000001], [28.1802833, -80.36571670000001], [28.1802, -80.36571670000001], [28.180133299999998, -80.36571670000001], [28.1800667, -80.3657], [28.1799667, -80.3656833], [28.17995, -80.3655833], [28.1798333, -80.36571670000001], [28.17975, -80.36571670000001], [28.179666700000002, -80.36571670000001], [28.1796167, -80.36571670000001], [28.1795333, -80.3657], [28.17945, -80.3657], [28.179366700000003, -80.3657], [28.179266700000003, -80.3657], [28.17895, -80.3657333], [28.1788833, -80.36575], [28.1788, -80.3657667], [28.17875, -80.3657833], [28.1786667, -80.3658167], [28.178616700000003, -80.3658], [28.1785, -80.3658167], [28.1785, -80.3658167], [28.178416700000003, -80.36583329999999], [28.1783, -80.3658667], [28.1782333, -80.3658667], [28.1781333, -80.3658667], [28.177866700000003, -80.3658833], [28.1778, -80.3658833], [28.1777333, -80.3658833], [28.1776333, -80.3659], [28.1775667, -80.3659], [28.177333299999997, -80.3659167], [28.1772667, -80.3659167], [28.176683299999997, -80.3659333], [28.1766167, -80.3659333], [28.17655, -80.3659167], [28.176483299999997, -80.36595], [28.1764, -80.3659667], [28.176366700000003, -80.36595], [28.176266700000003, -80.3659667], [28.176166700000003, -80.3659667], [28.1761, -80.3659833], [28.176033299999997, -80.3659833], [28.17595, -80.3659833], [28.1758667, -80.366], [28.1757833, -80.366], [28.175433299999998, -80.3660333], [28.1752333, -80.3660667], [28.175066700000002, -80.3660833], [28.175, -80.3660833], [28.1749333, -80.3661], [28.1748333, -80.3661333], [28.174783299999998, -80.3661167], [28.1747167, -80.3661333], [28.17465, -80.3661333], [28.1745833, -80.36615], [28.1745, -80.36616670000001], [28.174216700000002, -80.3662333], [28.174133299999998, -80.3662333], [28.1740833, -80.36625], [28.174016700000003, -80.36628329999999], [28.173933299999998, -80.3663], [28.1738667, -80.3663], [28.1738, -80.3663333], [28.1737667, -80.3663333], [28.17365, -80.3663167], [28.1736, -80.36635], [28.1735167, -80.36635], [28.1734333, -80.3663667], [28.173383299999998, -80.3663667], [28.17335, -80.3663833], [28.172833299999997, -80.3664333], [28.1727833, -80.3664667], [28.1727, -80.36645], [28.172616700000003, -80.36645], [28.1725667, -80.3664833], [28.17255, -80.3664833], [28.172416700000003, -80.3665167], [28.1723667, -80.3665333], [28.1723333, -80.3665667], [28.1722333, -80.3665333], [28.17215, -80.3665833], [28.1721, -80.3665667], [28.1720167, -80.3666], [28.17195, -80.3665833], [28.1719333, -80.3666], [28.1715167, -80.3666667], [28.1714667, -80.3666667], [28.1714, -80.3666667], [28.171316700000002, -80.3666667], [28.1712667, -80.3667], [28.1712, -80.3667167], [28.1710833, -80.3667], [28.171016700000003, -80.36673329999999], [28.1709667, -80.36675], [28.1709, -80.3667167], [28.1708, -80.36675], [28.1707333, -80.36675], [28.1706167, -80.36675], [28.170583299999997, -80.3668], [28.17055, -80.3667], [28.1704333, -80.3668], [28.17035, -80.3668167], [28.170083299999998, -80.3668667], [28.1699833, -80.3669167], [28.169933299999997, -80.3669167], [28.1698833, -80.36695], [28.1697667, -80.3669333], [28.169716700000002, -80.36695], [28.169633299999997, -80.3669833], [28.1695667, -80.3669833], [28.1695, -80.367], [28.16945, -80.3670333], [28.1693833, -80.3669833], [28.1692833, -80.36705], [28.169183299999997, -80.36705], [28.1691333, -80.3671], [28.16905, -80.3671167], [28.169, -80.3671167], [28.1689, -80.3671167], [28.1688167, -80.36713329999999], [28.168783299999998, -80.36713329999999], [28.168683299999998, -80.3671667], [28.1686333, -80.3671833], [28.168566700000003, -80.3671833], [28.1684833, -80.3672167], [28.1684, -80.3672167], [28.16835, -80.3672167], [28.16825, -80.3672833], [28.1681833, -80.36725], [28.168116700000002, -80.3672667], [28.168033299999998, -80.3672667], [28.167933299999998, -80.3673], [28.1678833, -80.3673167], [28.1678, -80.3673333], [28.1677333, -80.3673333], [28.1676667, -80.3673333], [28.167566700000002, -80.3673667], [28.1675167, -80.3673833], [28.167483299999997, -80.3674167], [28.1674, -80.3674], [28.1673, -80.3674167], [28.1672167, -80.3674333], [28.1671333, -80.36746670000001], [28.167066700000003, -80.3674833], [28.166999999999998, -80.3674833], [28.1668833, -80.3675333], [28.1668, -80.3675333], [28.16675, -80.3675667], [28.1666667, -80.3676167], [28.1666, -80.3676333], [28.166533299999998, -80.3676333], [28.16645, -80.3676667], [28.16635, -80.3676833], [28.1662833, -80.3677167], [28.166216700000003, -80.3677167], [28.1661167, -80.3677333], [28.16605, -80.3677667], [28.165966700000002, -80.3678], [28.165883299999997, -80.3678167], [28.1658333, -80.36785], [28.16575, -80.3678167], [28.165666700000003, -80.3678333], [28.165566700000003, -80.36785], [28.165483299999998, -80.36785], [28.1654, -80.36785], [28.165333299999997, -80.3678833], [28.1652833, -80.3678833], [28.165216700000002, -80.3679167], [28.165116700000002, -80.36795], [28.1649833, -80.3679], [28.1648833, -80.3679167], [28.16475, -80.3679333], [28.164716700000003, -80.3678833], [28.1646667, -80.3679167], [28.164583299999997, -80.36795], [28.164483299999997, -80.36795], [28.16435, -80.36798329999999], [28.1641333, -80.36798329999999], [28.164066700000003, -80.3680167], [28.1638833, -80.3680333], [28.16375, -80.368], [28.1634667, -80.368], [28.1633, -80.3680167], [28.163083299999997, -80.3680667], [28.1625333, -80.3682667], [28.160616700000002, -80.3681333], [28.1571833, -80.3681333], [28.156, -80.3688167], [28.155283299999997, -80.3693], [28.15405, -80.3711], [28.1528833, -80.3720833], [28.152733299999998, -80.3726], [28.1525833, -80.3726333], [28.15245, -80.3735167], [28.1535333, -80.37431670000001], [28.1537, -80.37605], [28.153666700000002, -80.3777333], [28.15355, -80.37899999999999], [28.152933299999997, -80.38035], [28.152516700000003, -80.3818333], [28.152833299999998, -80.3834], [28.1528667, -80.3840833], [28.15345, -80.3865667], [28.1535167, -80.3875167], [28.153016700000002, -80.39068329999999], [28.15245, -80.3922167], [28.15325, -80.3962833], [28.1537167, -80.4003667], [28.1543, -80.4047167], [28.15465, -80.4098333], [28.1547333, -80.4114833], [28.15705, -80.41725], [28.1584, -80.4206833], [28.158733299999998, -80.4218833], [28.1575667, -80.4269167], [28.156266700000003, -80.4288667], [28.1522167, -80.43445], [28.1488333, -80.4360667], [28.1453667, -80.4375833], [28.14475, -80.4378167], [28.13995, -80.4401667], [28.1401, -80.4418333], [28.1395167, -80.4435], [28.1398, -80.44548329999999], [28.141583299999997, -80.45085], [28.1401, -80.4515333], [28.137816700000002, -80.4524667], [28.135283299999998, -80.4526], [28.132583299999997, -80.45315], [28.1275167, -80.4549667], [28.1245167, -80.4565833], [28.12085, -80.4581], [28.118000000000002, -80.4597], [28.1150833, -80.4612667], [28.112583299999997, -80.4642], [28.1101833, -80.4667833], [28.107866700000002, -80.4704667], [28.1068833, -80.47155], [28.1045167, -80.4770667], [28.1040833, -80.4799], [28.102616700000002, -80.4832167], [28.1010667, -80.4874167], [28.1, -80.4989167], [28.0996833, -80.5025], [28.098883299999997, -80.5066167], [28.0980667, -80.5107167], [28.0968167, -80.5148167], [28.0955167, -80.5186667], [28.0949, -80.52326670000001], [28.0944167, -80.5277167], [28.094, -80.5329833], [28.0934833, -80.5374667], [28.0930333, -80.5415], [28.092383299999998, -80.5460167], [28.0921, -80.55045], [28.0915833, -80.5551], [28.090983299999998, -80.5593833], [28.0898667, -80.5627], [28.08815, -80.5655333], [28.0860667, -80.5695833], [28.0854333, -80.5715333], [28.08465, -80.5736667], [28.084216700000002, -80.5757333], [28.08355, -80.5774333], [28.0830833, -80.5794667], [28.0818, -80.5825167], [28.0807333, -80.58415], [28.0796833, -80.5861], [28.0787333, -80.5880833], [28.0777, -80.5899], [28.07635, -80.5920667], [28.0752, -80.5941167], [28.073516700000003, -80.5968333], [28.07225, -80.59918329999999], [28.0712333, -80.6016], [28.07, -80.6034], [28.0689, -80.6055667], [28.0684, -80.6074167], [28.067966700000003, -80.60905], [28.067316700000003, -80.6105], [28.06685, -80.6119333], [28.0662667, -80.61385], [28.0658667, -80.61555], [28.0655, -80.6172667], [28.06545, -80.6190167], [28.065266700000002, -80.6207333], [28.0651167, -80.6222], [28.0647, -80.62315], [28.0643833, -80.62365], [28.063233299999997, -80.6237333], [28.0625667, -80.6236], [28.0625667, -80.62358329999999], [28.0625833, -80.62365], [28.0625833, -80.6236333], [28.0625833, -80.6236167]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_aca8ad8dde58483f8b5feda1254a8b24);
+        
+    
+                var lat_lng_popup_08ce2fec377740b19442dcd2934cce8c = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_08ce2fec377740b19442dcd2934cce8c
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_aca8ad8dde58483f8b5feda1254a8b24);
+                    }
+                map_aca8ad8dde58483f8b5feda1254a8b24.on('click', latLngPop);
+            
+</script>
