@@ -14,6 +14,6 @@ I am currently a Graduate Student at Montana State Univerisity. Right now I'm st
 
 ## Current Projects
 <div style="text-align:center">
-<img src="../images/TGF.png" border="1" style="width: 500px;"/>
+<iframe src="files/m_1.html" name="LAFTR map" height="300" width="600">You need a Frames Capable browser to view this content.</iframe>  
 </div>
-Still working on this section :) 
+ 
