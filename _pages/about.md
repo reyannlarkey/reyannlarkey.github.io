@@ -19,6 +19,6 @@ Montana State University (MSU) in collaboration with the University of Californi
 
 ##### LAFTR Deployment Map
 <div style="text-align:center">
-<iframe src="../files/m_2.html" name="LAFTR map" height="500" width="1000">You need a Frames Capable browser to view this content.</iframe>  
+<iframe src="../files/m_2.html" name="LAFTR map" height="500" width="600">You need a Frames Capable browser to view this content.</iframe>  
 </div>
  
