@@ -13,10 +13,10 @@ redirect_from:
     <img src="../images/LAFTR_logo.png" alt="Snow" style="width:100%">
   </div>
   <div class="column">
-    <img src="../images/laftr_balloon1.jpg alt="Forest" style="width:100%">
+    <img src="../images/laftr_balloon1.jpg" alt="Forest" style="width:100%">
   </div>
   <div class="column">
-    <img src="../images/laftr_rooftop.jpg alt="Mountains" style="width:100%">
+    <img src="../images/laftr_rooftop.jpg" alt="Mountains" style="width:100%">
   </div>
 </div>
 
