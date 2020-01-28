@@ -10,7 +10,10 @@ main:
     url: /publications/
 
   - title: "Talks & Presentations"
-    url: /talks/    
+    url: /talks/
+    
+  - title: "Misc. Projects"
+    url: /misc/    
   
   
 
