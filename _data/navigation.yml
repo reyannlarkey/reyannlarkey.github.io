@@ -12,8 +12,11 @@ main:
   - title: "Talks & Presentations"
     url: /talks/
     
-  - title: "Misc. Projects"
-    url: /misc_projects/    
+  - title: "Blog Posts"
+    url: /year-archive/
+  
+  #- title: "Misc. Projects"
+  #  url: /misc_projects/    
   
   
 
