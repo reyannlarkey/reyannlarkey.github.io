@@ -1,7 +1,7 @@
 ---
 title: 'Creating a Word Cloud from the Jurassic Park Movie Script'
 date: 2020-02-04
-permalink: /posts/2020/01/binder_jn/
+permalink: /posts/2020/02/jurassic_word_cloud/
 tags:
   - Word Cloud
   - PIL
