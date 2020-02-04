@@ -9,10 +9,10 @@ tags:
   - Jurassic Park
 ---
 
-The Jurassic Park movie script can be found <a href = https://www.springfieldspringfield.co.uk/movie_script.php?movie=jurassic-park>here</a>: 
+The Jurassic Park movie script can be found <a href = "https://www.springfieldspringfield.co.uk/movie_script.php?movie=jurassic-park">here</a>: 
 
 
-Among other libraries, I used the <a href= http://amueller.github.io/word_cloud/> WordCloud </a> library to create this word cloud. 
+Among other libraries, I used the <a href= "http://amueller.github.io/word_cloud"/> WordCloud </a> library to create this word cloud. 
 
 ### Start by importing all the packages needed:
 
@@ -60,7 +60,9 @@ mask[edges > 0.08] = 255
 plt.imshow(mask)
 plt.show()
 ```
-![](../images/logo_large =100x100)
+
+<img src="../images/logo_large.png" alt="Jurassic" style="width:30%">
+
 
 
 
