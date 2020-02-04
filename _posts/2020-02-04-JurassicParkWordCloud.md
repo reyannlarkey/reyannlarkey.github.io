@@ -20,7 +20,7 @@ Making a word cloud from the Jurassic Park (1993) Script with Python.
 The Jurassic Park movie script can be found <a href = "https://www.springfieldspringfield.co.uk/movie_script.php?movie=jurassic-park">here</a>: 
 
 
-Among other libraries, I used the <a href= "http://amueller.github.io/word_cloud"/> WordCloud </a> library to create this word cloud. 
+Among other libraries, I used the <a href= "http://amueller.github.io/word_cloud"> WordCloud </a> library to create this word cloud. 
 
 ### Start by importing all the packages needed:
 
