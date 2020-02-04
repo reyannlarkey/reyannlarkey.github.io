@@ -8,6 +8,11 @@ tags:
   - Scipy
   - Jurassic Park
 ---
+<div style="text-align:center">
+<iframe src="../../../../images/word_cloud_jurassic2.png" name="Word Cloud" height="500" width="500">You need a Frames Capable browser to view this content.</iframe>
+</div>
+
+
 
 The Jurassic Park movie script can be found <a href = "https://www.springfieldspringfield.co.uk/movie_script.php?movie=jurassic-park">here</a>: 
 
