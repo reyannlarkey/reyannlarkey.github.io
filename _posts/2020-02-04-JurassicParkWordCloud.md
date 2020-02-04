@@ -61,7 +61,7 @@ plt.imshow(mask)
 plt.show()
 ```
 
-<img src="../images/logo_large.png" alt="Jurassic" style="width:30%">
+<img src="../../../../images/logo_large.png" alt="Jurassic" style="width:30%">
 
 
 
