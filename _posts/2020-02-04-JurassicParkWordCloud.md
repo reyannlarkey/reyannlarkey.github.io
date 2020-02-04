@@ -112,6 +112,9 @@ plt.savefig("img/word_cloud_jurassic2.png", bbox_inches = 'tight') # saves every
   <img src="../../../../images/word_cloud_jurassic2.png" alt="Word Cloud" style="width:100%" />
 </p>
 
+Try it yourself with an interactive Jupyter Notebook here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reyannlarkey/JurassicParkWords.git/master?filepath=jurassic%2Fjurassic.ipynb)
+
+
 
 
 
