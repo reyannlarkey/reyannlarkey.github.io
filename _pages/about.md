@@ -8,17 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Graduate Student at Montana State Univerisity. Right now I'm studying Terrestrial Gamma-Ray Flashes (TGFs) and their associated lightning. So far my research has been focused on the intervals between lightning flashes in TGF producing thunderstorms. However, I am also involved in a TGF detecting project called the Light and Fast TGF Recorder (LAFTR).
+I am currently a Graduate Student at Montana State Univerisity. Right now I'm studying <span style="color:green"> Terrestrial Gamma-Ray Flashes (TGFs) </span>.and their associated lightning. So far my research has been focused on the intervals between lightning flashes in TGF producing thunderstorms. However, I am also involved in a TGF detecting project called the Light and Fast TGF Recorder (LAFTR). See more details about my research projects <a href = "https://reyannlarkey.github.io/research/">here</a>. 
 
 
 
+## Personal
+I like getting outdoors and doing activities with my Husband Jake and dog Chief. We like to go hiking, camping, and running in the areas surrounding Bozeman. We also spend a lot of time in Kansas City, MO and Eastern Colorado visiting family. 
+
+<div style="text-align:center">
+    <img src="../images/personal/turkey_trot_KC.png" width="200" height="65" />  
+    <img src="../images/personal/sac_peak.png" width="350" height="65" />
+</div>
+
+I have a number of other hobbies including knitting, reading, and making fun little applications using Arduinos and Raspberry Pis. I also like playing around with fun data visualizations using python, and app development using Android Studio. You can check out some of my miscellaneous projects <a href = "https://reyannlarkey.github.io/year-archive/">here</a>. 
+
+<!--
 ## Current Projects
 
 ### LAFTR
-Montana State University (MSU) in collaboration with the University of California, Santa Cruz (UCSC) has developed the Light and Fast TGF Recorder (LAFTR), a NASA-University Student Instrumentation Project, capable of detecting high energy gamma rays at an extremely fast rate. LAFTR is light enough (less than 2.5 kg) to be deployed for balloon born observations inside thunderstorms, and fast enough to record unsaturated observations near TGF generation regions. In addition to balloon flights, the low-cost nature of LAFTR allows for many units to be deployed via ground for multi-point measurements and arrays of ground and tower-based TGF observations.
-
-##### LAFTR Deployment Map
-<div style="text-align:center">
-<iframe src="../files/m_2.html" name="LAFTR map" height="500" width="600">You need a Frames Capable browser to view this content.</iframe>  
-</div>
+Montana State University (MSU) in collaboration with the University of California, Santa Cruz (UCSC) has developed the Light and Fast TGF Recorder (LAFTR), a NASA-University Student Instrumentation Project, capable of detecting high energy gamma rays at an extremely fast rate. LAFTR is light enough (less than 2.5 kg) to be deployed for balloon born observations inside thunderstorms, and fast enough to record unsaturated observations near TGF generation regions. In addition to balloon flights, the low-cost nature of LAFTR allows for many units to be deployed via ground for multi-point measurements and arrays of ground and tower-based TGF observations. 
+-->
  
