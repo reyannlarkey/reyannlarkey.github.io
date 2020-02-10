@@ -18,9 +18,8 @@ I like getting outdoors and doing activities with my Husband Jake and dog Chief.
 <div style="text-align:center">
     <img src="../images/personal/turkey_trot_KC.png" width="200" height="65" />  
     <img src="../images/personal/sac_peak.png" width="350" height="65" />
+    <img src="../images/personal/lindley.jpg" width="180" height="65" />
 </div>
-
-I have a number of other hobbies including knitting, reading, and making fun little applications using Arduinos and Raspberry Pis. I also like playing around with fun data visualizations using python, and app development using Android Studio. You can check out some of my miscellaneous projects <a href = "https://reyannlarkey.github.io/year-archive/">here</a>. 
 
 <!--
 ## Current Projects
