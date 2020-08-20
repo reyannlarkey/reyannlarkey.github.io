@@ -89,6 +89,8 @@ ground_unit(Lat = 36.663504, Lon = 136.649678-360, NAME = "GU1", DATE = "12-16-2
 ground_unit(Lat = 35.713397, Lon = 139.763085-360, NAME = "GU2", DATE = "01-11-2019", RECOVERED= "N/A")
 ground_unit(Lat = 45.676998, Lon =-111.042931,     NAME = "GU3", DATE = "06-27-2019", RECOVERED= "N/A")
 ground_unit(Lat = 43.625913, Lon = -79.396027,    NAME = "GU4", DATE = "07-11-2019", RECOVERED= "N/A")
+ground_unit(Lat = 38.742222, Lon = -104.864444,    NAME = "GU5", DATE = "07-11-2019", RECOVERED= "N/A")
+
 
 flight_unit(flight_file='flight0.csv', NAME = "FU1", DATE = "11-12-2018", RECOVERED="TRUE",track_color='blue')
 flight_unit(flight_file='flight_palm_tree.csv', NAME = "FU3", DATE = "07-25-2019", RECOVERED="TRUE",track_color='red')
