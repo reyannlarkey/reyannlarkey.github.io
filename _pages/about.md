@@ -13,7 +13,7 @@ I am currently a Graduate Student at Montana State Univerisity. Right now I'm st
 
 
 ## Personal
-I like getting outdoors and doing activities with my Husband Jake and dog Chief. We like to go hiking, camping, and running in the areas surrounding Bozeman. We also spend a lot of time in Kansas City, MO and Eastern Colorado visiting family. 
+I like getting outdoors and doing activities with my Husband Jake and dogs Chief and Moose. We like to go hiking, camping, and running in the areas surrounding Bozeman. We also spend a lot of time in Kansas City, MO and Colorado visiting family. 
 
 <div style="text-align:center">
     <img src="../images/personal/turkey_trot_KC.png" width="200" height="65" />  
