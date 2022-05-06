@@ -3,8 +3,8 @@ main:
   - title: "About"
     url: /about/
   
-  #- title: "Research"
-  #  url: /research/
+  - title: "Research"
+    url: /research/
     
   - title: "Publications"
     url: /publications/
@@ -12,8 +12,8 @@ main:
   - title: "Talks & Presentations"
     url: /talks/
     
-  #- title: "Misc. Projects"
-  #  url: /year-archive/
+  - title: "Misc. Projects"
+    url: /year-archive/
   
   #- title: "Misc. Projects"
   #  url: /misc_projects/    
