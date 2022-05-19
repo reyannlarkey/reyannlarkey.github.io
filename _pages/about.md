@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Graduate Student at Montana State Univerisity. Right now I'm studying <a href = "https://en.wikipedia.org/wiki/Terrestrial_gamma-ray_flash">Terrestrial Gamma-Ray Flashes (TGFs)</a> and their associated lightning. So far my research has been focused on the intervals between lightning flashes in TGF producing thunderstorms. However, I am also involved in a TGF detecting project called the Light and Fast TGF Recorder (LAFTR). See more details about my research projects <a href = "https://reyannlarkey.github.io/research/">here</a>. 
+I am currently a Postdoctoral Researcher at Montana State Univerisity. Right now I'm studying <a href = "https://en.wikipedia.org/wiki/Terrestrial_gamma-ray_flash">Terrestrial Gamma-Ray Flashes (TGFs)</a> and their associated lightning. So far my research has been focused on the relationships between TGF production and lightning and thunderstorm characteristics. I am also involved in a TGF detecting project called the Light and Fast TGF Recorder (LAFTR). See more details about my research projects <a href = "https://reyannlarkey.github.io/research/">here</a>. 
 
 
 
