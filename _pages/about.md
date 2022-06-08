@@ -21,10 +21,10 @@ I like getting outdoors and doing activities with my Husband Jake and dogs Chief
     <img src="../images/personal/lindley.jpg" width="180" height="65" />
 </div>
 
-<!--
+
 ## Current Projects
 
 ### LAFTR
 Montana State University (MSU) in collaboration with the University of California, Santa Cruz (UCSC) has developed the Light and Fast TGF Recorder (LAFTR), a NASA-University Student Instrumentation Project, capable of detecting high energy gamma rays at an extremely fast rate. LAFTR is light enough (less than 2.5 kg) to be deployed for balloon born observations inside thunderstorms, and fast enough to record unsaturated observations near TGF generation regions. In addition to balloon flights, the low-cost nature of LAFTR allows for many units to be deployed via ground for multi-point measurements and arrays of ground and tower-based TGF observations. 
--->
+
  
