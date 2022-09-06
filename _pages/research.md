@@ -46,6 +46,8 @@ Montana State University (MSU) in collaboration with the University of Californi
 ## Data Analysis
 Still in Progress
 
+<script type='text/javascript' src='https://10az.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1440px; height: 696px;'><object class='tableauViz' width='1440' height='696' style='display:none;'><param name='host_url' value='https%3A%2F%2F10az.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;reyannlarkey' /><param name='name' value='MEP_Analysis&#47;LocationDashboard' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
+
 
 <!--
 <div style="text-align:center"><img src="../images/map.gif"  style="width: 500px;"/></div>
